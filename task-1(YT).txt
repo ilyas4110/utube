@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="shortcut icon" href="/resources/utube.avif" type="image/x-icon">
+
+    <style>
+        body {
+            position: absolute;
+        }
+
+        #div1 {
+            height: fit-content;
+        }
+
+        #lines3 {
+            position: relative;
+            background: transparent;
+
+        }
+
+        #premiumlogo {
+            position: relative;
+            top: -10px;
+            left: 15px;
+        }
+
+        #searchBar {
+            position: relative;
+            top: -16px;
+            left: 320px;
+            border: 2px solid black;
+            border-radius: 30px;
+            width: 370px;
+            height: 35px;
+            opacity: 0.5;
+        }
+
+        #srch {
+            position: relative;
+            top: -7px;
+            left: 260px;
+        }
+
+        ::placeholder {
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        #vc {
+            position: relative;
+            left: 635px;
+            top: -10px;
+        }
+
+        #bell {
+            position: relative;
+            top: -10px;
+            left: 645px;
+        }
+
+        #acc {
+            position: relative;
+            top: -10px;
+            left: 655px;
+        }
+
+        #fst {
+            /* border-bottom: 2px solid black; */
+            list-style-type: none;
+            padding-left: 10px;
+            font-size: x-large;
+        }
+
+        #fst>li {
+            padding-bottom: 10px;
+        }
+
+        #fst1 {
+            list-style-type: none;
+            padding-left: 10px;
+            font-size: x-large;
+        }
+
+        #fst1>li {
+            padding-bottom: 10px;
+        }
+
+        #fst2 {
+            list-style-type: none;
+            padding-left: 10px;
+            font-size: x-large;
+        }
+
+        #fst2>li {
+            padding-bottom: 10px;
+        }
+
+        #exp {
+            position: relative;
+            margin-left: -15px;
+        }
+
+        .nav_bar {
+            position: absolute;
+            top: 50px;
+            right: 0;
+            bottom: 0;
+            left: 200px;
+        }
+
+        .nav_barI {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+        }
+
+        li {
+            text-align: left;
+        }
+
+        li:hover {
+            display: inline-block;
+            font-weight: bolder;
+
+        }
+
+        .yth {
+            position: relative;
+            top: 16px;
+            left: -10px;
+            /* padding-right: 5px; */
+
+
+        }
+
+        .yts {
+            position: relative;
+            top: 8px;
+            left: -10px;
+            /* padding-right: 5px; */
+
+
+        }
+
+        .ytsus {
+            position: relative;
+            top: 6px;
+            padding-right: 5px;
+
+        }
+
+        .ytmu {
+            position: relative;
+            top: 5px;
+            left: 0;
+            padding-right: 5px;
+            
+        }
+
+        .ifr {
+            position: relative;
+            top: -880px;
+            left: 221px;
+        }
+
+        .ifr1 {
+            position: relative;
+            top: -878px;
+            left: 275px;
+        }
+
+        .ifr2 {
+            position: relative;
+            top: -876px;
+            left: 330px;
+        }
+
+        .ifr3 {
+            position: relative;
+            top: -620px;
+            left: -700px;
+        }
+
+        .if4 {
+            position: relative;
+            top: -828px;
+            left: 583px;
+        }
+
+        .if5 {
+            position: relative;
+            top: -828px;
+            left: 637px;
+        }
+
+        #li {
+            height: 60px;
+            box-sizing: content-box;
+            padding-top: -40px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="div1">
+        <span id="lines3"><img id="imgho" src="/resources/3lines.jpg" alt="" height="50px" width="50px"></a></span>
+
+        <span id="premiumlogo"><img src="/resources/1200px-YouTube_Premium_logo.svg.png" alt="" height="30px"
+                width="110px"></span>
+
+        <span id="searchbar">
+            <input type="text" id="searchBar" placeholder="Search">
+        </span>
+        <span id="srch"><img src="/resources/1024px-Search_Icon.svg.png" alt="" height="30px" width="30px"></span>
+        <span id="vc"><img src="/resources/vc button.png" alt="" height="30px" width="30px"></span>
+        <span id="bell"><img src="/resources/The_bell.webp" alt="" height="30px" width="30px"></span>
+        <span id="acc"><img src="/resources/images (1).png" alt="" height="30px" width="30px"></span>
+    </div>
+
+    <div class="side_bar">
+        <ul id="fst">
+            <li id="li"> <img src="/resources/utubehome.jpg" class="yth" height="50px" width="50px"> Home</li>
+            <li> <img class="yts" src="/resources/youtube-shorts-black3609.jpg" alt="" height="30px" width="50px">Shorts
+            </li>
+            <li> <img class="ytsus" src="/resources/youtube_subscription_icon_136007.png" alt="" height="25px"
+                    width="30px"> Subscriptions</li>
+            <li> <img class="ytmu"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAb1BMVEX/////AAD/9fX/2dn/8vL/IyP/bm7/+vr/r6//Skr/W1v/oKD/Fhb/Q0P/hob/jo7/y8v/pKT/eXn/PT3/09P/mpr/qKj/lpb/UFD/HBz/vb3/5OT/t7f/6+v/kpL/Njb/Ly//gID/aGj/YmL/xMQsGZv0AAADkElEQVR4nO1a67aqIBA276mplalltuvs3v8ZD6inVIYE0Wadtfj+icpcmBswhqGhoaGhoaGhofEfwzM7eN8nbVvXPHG3Hdwkv1r219iws9A9OpsRnKMbZvb61M20KBniLybKIjXXJe8HEY96iyjwV2Rhf/5MvcV5vxJ5f0L4nhr8FchngSh5iiBbmLx9Eha/U8JpUY+wpMTvlGAtR/8iKX6nhMtC5L1iFn3CQbFMcDzMI09xWIK+O5/+ZuMi01fnwFPQf4uDmh0UqvQ3m0KF/jz/G0LFG60J+vfjjuB4n+BgdkSyP8W/XeynlU2qMs+uUv9w/PBpMDcqn7hTOvFzOKlXX1x+rj7No5/xFiC61dD3VcxjIJqXG3kLkHTC15cwdsvyEO//qaPmOW0wh74Pz7VtpanyXX+09Ktm+MkxyDkVCrwAj0bYzGUK03vcsFDBkTOSp78HJ7rRuMZZbKepQUz4pXSdaII2HdJXV67f71L6HuTgLFsrgxZwIy88rq0TRCGXA0krMCEXeBD9mxPZKSaSmn+AF4GcClLABLdkib3J7ByTvytgkaJUigEoC9KQ/kn/HegqXIBxqaxol+wE1ACuryd+AmrCHqCoUiYjZOz+M7L7qr2ne74v0C/ZYUcmHofs/ySheI/3bJZRcc2RLsIDHhYEYGoOyT9p75EaRAosVPOyAksJV7w4s9nsTi2g511OW2RwYtLo4w5HcSOwGBOgTtQXqmPAqBPotOKn7tvr+B8BsD9vzWF98p7M+gU4uBIz/IFGBZEz/yZktC9rX5rLlvn8l9gRuwa5MAMJKFL/eaBOzx+bQuTxpBAC6wRna5SeRutZJyOjz6BoKOwGJqNTalUDtTAGlQ01nkOWvBXNRywDO3O0SQYselCN3aCMpMjAIDZALuWFb5IPKJgoMjAYgH26fiXLA+FnN57lCwy87GQNBiaXwNivuwSTRtgPfUsboYAbDmOHmhvOCUSjKl4tEKGHYslk9Fw+GUmlY2gToJqOJQqS2yoFiXhJxooJfNxBoiQTLEp5VwjqRSl6WY6/MUHfmqFvTvG35+gHFOhHNPiHVOjHdPgHlfhHteiH1fjH9egXFvhXNqKXVtyekhbzL63wr+3wLy7xr27RL69VOViAPn4DA34LB3oTi4HfxoPfyGSgt3JRIDezUSC38xn4DY0GektnA9ym1ha4bb1vNvAamzU0NDQ0NDQ0NBbEX7kdRBdUABrUAAAAAElFTkSuQmCC"
+                    alt="" height="30px" width="35px"> Youtube Music</li>
+        </ul>
+
+        <ul id="fst1">
+            <li>Library</li>
+            <li>History</li>
+            <li>Your videos</li>
+            <li>Watch Later</li>
+            <li>Downloads</li>
+            <li>Your clips</li>
+            <li>Liked Videos</li>
+
+        </ul>
+
+        <ul id="fst2">
+            <span id="exp">Explore</span>
+
+            <li>Trending</li>
+            <li>Shopping</li>
+            <li>Music</li>
+            <li>Movies</li>
+            <li>Live</li>
+            <li>Gaming</li>
+            <li>News</li>
+            <li>Sports</li>
+            <li>Learning</li>
+            <li>Fashion & Beauty</li>
+        </ul>
+    </div>
+
+    <div>
+        <iframe class="ifr" width="300px" height="200px" src="https://www.youtube.com/embed/HcOc7P5BMi4"
+            title="123"></iframe>
+
+        <iframe class="ifr1" width="300px" height="200px" src="https://www.youtube.com/embed/BsDoLVMnmZs"
+            title=""></iframe>
+
+
+        <iframe class="ifr2" width="300px" height="200px" src="https://www.youtube.com/embed/qz0aGYrrlhU"
+            title=""></iframe>
+
+        <iframe class="ifr3" width="300" height="200" src="https://www.youtube.com/embed/Edsxf_NBFrw"
+            title="">12345</iframe>
+
+        <iframe class="if4" width="300" height="200" src="https://www.youtube.com/embed/mYpybP3YmHM" title=""></iframe>
+
+        <iframe class="if5" width="300" height="200" src="https://www.youtube.com/embed/mYpybP3YmHM" title=""></iframe>
+
+    </div>
+
+
+</body>
+
+</html>
